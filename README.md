@@ -1,24 +1,27 @@
-# React + Vite
+# Portfolio Ruddy Gobillard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Auteur
 
-Currently, two official plugins are available:
+Ruddy Gobillard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## React Compiler
+Ce site web a pour but d'être une vitrine de mes compétences et de mes projets réalisées au cours des années en
+Informatique.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Lancement du projet
 
-## Expanding the ESLint configuration
+Afin de tester le portfolio, il faudra d'abord cloner le dépôt, utiliser la commande :
+```
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Une fois les packages installées, lancer le serveur via la commande :
+```
+npm run dev
+```
 
-## Commands
-
-### Dev build
-
-Use "npm run dev" to run the dev build 
-
-Then in your browser, go to the address "http://localhost:5173" to access to the website.
+Dans le navigateur de votre choix, vous aurez accès au site à l'adresse :
+```
+http://localhost:5173
+```
