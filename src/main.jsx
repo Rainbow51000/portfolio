@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom";
 import Header from "./components/header.jsx";
 import Footer from "./components/footer.jsx";
+import '../public/style.css'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
