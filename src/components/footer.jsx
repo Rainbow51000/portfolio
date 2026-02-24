@@ -2,8 +2,8 @@
  * Footer with basic links and info
  * @returns {React.JSX.Element}
  */
-export default function footer() {
+export default function Footer() {
     return (
-        <footer></footer>
+        <footer className={"footer"}>FOOTER</footer>
     )
 }

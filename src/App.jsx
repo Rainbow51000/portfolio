@@ -1,7 +1,12 @@
-import './App.css'
+import './components/navbar.jsx'
+import Navbar from "./components/navbar.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
-  return (<></>)
+  return (<>
+    <Navbar />
+    <Footer />
+  </>);
 }
 
 export default App
