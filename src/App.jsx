@@ -8,10 +8,10 @@ import Contact from "./pages/contact.jsx";
 function App() {
   return (<>
   <Routes>
-    <Route path="/" component={Accueil} />
-    <Route path={"/parcours"} component={Parcours} />
-    <Route path={"/projets"} component={Projets} />
-    <Route path={"/contact"} component={Contact} />
+    <Route path="/" element={<Accueil />} />
+    <Route path={"/parcours"} element={<Parcours />} />
+    <Route path={"/projets"} element={<Projets />} />
+    <Route path={"/contact"} element={<Contact />} />
   </Routes>
   </>);
 }
