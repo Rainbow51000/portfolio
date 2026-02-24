@@ -1,4 +1,3 @@
-import './components/navbar.jsx'
 import { Routes, Route } from "react-router-dom";
 import Accueil from "./pages/accueil.jsx";
 import Parcours from "./pages/parcours.jsx";

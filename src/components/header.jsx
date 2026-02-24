@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
 
 /**
- * Navbar with every buttons to other pages
+ * Header with every buttons to other pages
  * @returns {React.JSX.Element}
  */
-export default function Navbar() {
+export default function Header() {
     return (
-        <header className={ "navbar" }>
+        <header className={ "header" }>
             <Link to="/">accueil</Link>
             <Link to="/parcours">parcours</Link>
             <Link to="/projets">projets</Link>
