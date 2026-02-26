@@ -52,19 +52,19 @@ export default function Accueil() {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                        <a href="https://github.com/Rainbow51000/fight-or-flight" target="_blank" rel="noopener noreferrer"
                            className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group">
                             <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet personnel</span>
-                            <h3 className="text-xl font-black uppercase mt-2 mb-3">NOM DU PROJET</h3>
-                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">PLACEHOLDER — description courte.</p>
+                            <h3 className="text-xl font-black uppercase mt-2 mb-3">Fight or Flight</h3>
+                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">Jeu Godot — Réalisée lors de la Gamejam III de l'IUT de Reims en binôme.</p>
                             <p className="text-xs font-mono mt-6 group-hover:text-white transition-colors" style={{ color: "#944CB2" }}>Voir →</p>
                         </a>
 
-                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                        <a href="https://github.com/Rainbow51000/sae3-01" target="_blank" rel="noopener noreferrer"
                            className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group">
                             <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet académique</span>
-                            <h3 className="text-xl font-black uppercase mt-2 mb-3">NOM DU PROJET</h3>
-                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">PLACEHOLDER — description courte.</p>
+                            <h3 className="text-xl font-black uppercase mt-2 mb-3">SAÉ 3.01</h3>
+                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">Site CRUD — Avec le framework Symfony, site réalisée en groupe avec les toutes opérations CRUD.</p>
                             <p className="text-xs font-mono mt-6 group-hover:text-white transition-colors" style={{ color: "#944CB2" }}>Voir →</p>
                         </a>
 
