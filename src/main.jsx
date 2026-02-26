@@ -10,10 +10,12 @@ import './style.css'
  */
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <Header />
-    <main>
-      <App />
-    </main>
-    <Footer />
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex flex-1">
+          <App />
+      </main>
+      <Footer />
+    </div>
   </BrowserRouter>,
 )
