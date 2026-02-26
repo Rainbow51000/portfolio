@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
  */
 export default function Header() {
     return (
-        <header className="w-full py-15 bg-[url(/src/assets/portfolio-header.svg)] fixed">
+        <header className="w-full py-15 bg-[url(/src/assets/portfolio-header.svg)] fixed z-10">
             <nav className="flex justify-center gap-12 text-3xl font-mono transition-all">
                 <Link to="/" className="duration-300 hover:font-bold hover:scale-110">
                     accueil
