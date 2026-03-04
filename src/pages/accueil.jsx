@@ -4,12 +4,7 @@ export default function Accueil() {
 
             {/* Hero */}
             <section className="max-w-4xl mx-auto px-8 py-32 text-center">
-                <h1 className="text-8xl font-black uppercase leading-none mb-4">
-                    RUDDY
-                </h1>
-                <h1 className="text-8xl font-black uppercase leading-none mb-12" style={{ WebkitTextStroke: "2px #FFB310", color: "transparent" }}>
-                    GOBILLARD
-                </h1>
+                <img src={"/logorectangle.png"}  alt="Logo Ruddy Gobillard"/>
                 <p className="text-zinc-400 text-lg max-w-xl mx-auto mb-12 font-mono leading-relaxed">
                     Étudiant en BUT Informatique,<br/>
                     j'étudie pour devenir développeur Fullstack et travailler dans ce qui me plaît.
