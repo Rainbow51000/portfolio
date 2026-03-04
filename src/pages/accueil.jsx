@@ -10,7 +10,7 @@ export default function Accueil() {
                     j'étudie pour devenir développeur Fullstack et travailler dans ce qui me plaît.
                 </p>
                 <a
-                    href="/cv.pdf"
+                    href="/asset/cv.pdf"
                     className="inline-block border-2 border-white text-white font-mono text-sm uppercase tracking-widest px-8 py-4 hover:bg-white hover:text-black transition-all"
                 >
                     ↓ Télécharger le CV
