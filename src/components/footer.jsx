@@ -7,31 +7,41 @@ import linkedinIcon from '@/assets/linkedin-icon.svg';
  */
 export default function Footer() {
     return (
-        <footer className="w-full bg-black flex p-5">
-            <div className="flex max-w-1/12">
-                <a href={"https://github.com/Rainbow51000"}>
-                    <img src={githubIcon}  alt={"Icône GitHub"}/>
-                </a>
-                <a href={"https://www.linkedin.com/in/ruddy-gobillard-a903ba289/"}>
-                    <img src={linkedinIcon}  alt={"Icône LinkedIn"}/>
-                </a>
-            </div>
+        <footer className="w-full bg-black text-gray-400 py-6 px-4">
+            <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+                
+                <div className="flex gap-4">
+                    <a 
+                        href="https://github.com/Rainbow51000" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className="hover:opacity-75 transition-opacity"
+                    >
+                        <img src={githubIcon} alt="Icône GitHub" className="w-6 h-6" />
+                    </a>
+                    <a 
+                        href="https://www.linkedin.com/in/ruddy-gobillard-a903ba289/" 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className="hover:opacity-75 transition-opacity"
+                    >
+                        <img src={linkedinIcon} alt="Icône LinkedIn" className="w-6 h-6" />
+                    </a>
+                </div>
 
-            <p className="flex items-center flex-1 justify-center">
-                @Ruddy Gobillard — Tous droits réservés
-            </p>
+                <div className="text-center text-sm">
+                    <p>
+                        © Ruddy Gobillard — Tous droits réservés
+                    </p>
+                </div>
 
-            <div className="flex items-center flex-col">
-                <p>
-                    Outils utilisée : React, Vite, Javascript
-                </p>
-                <p>
-                    Auteurs - Ruddy Gobillard
-                </p>
-                <p>
-                    Dernière mise à jour : fev. 2026
-                </p>
+                <div className="flex flex-col items-center md:items-end text-sm">
+                    <p>Outils utilisés : React, Vite, Javascript, Tailwind</p>
+                    <p>Auteur : Ruddy Gobillard</p>
+                    <p>Dernière mise à jour : fév. 2026</p>
+                </div>
+
             </div>
         </footer>
-    )
+    );
 }
