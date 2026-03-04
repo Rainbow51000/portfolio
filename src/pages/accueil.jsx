@@ -51,14 +51,14 @@ export default function Accueil() {
                            className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group">
                             <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet personnel</span>
                             <h3 className="text-xl font-black uppercase mt-2 mb-3">Fight or Flight</h3>
-                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">Jeu Godot — Réalisée lors de la Gamejam III de l'IUT de Reims en binôme.</p>
+                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">Jeu Godot — Réalisée lors de la Gamejam III de l'IUT de Reims en groupe de trois.</p>
                             <p className="text-xs font-mono mt-6 group-hover:text-white transition-colors" style={{ color: "#944CB2" }}>Voir →</p>
                         </a>
 
                         <a href="https://github.com/Rainbow51000/sae3-01" target="_blank" rel="noopener noreferrer"
                            className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group">
                             <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet académique</span>
-                            <h3 className="text-xl font-black uppercase mt-2 mb-3">SAÉ 3.01</h3>
+                            <h3 className="text-xl font-black uppercase mt-2 mb-3">CoLive</h3>
                             <p className="text-zinc-500 text-sm font-mono leading-relaxed">Site CRUD — Avec le framework Symfony, site réalisée en groupe avec les toutes opérations CRUD.</p>
                             <p className="text-xs font-mono mt-6 group-hover:text-white transition-colors" style={{ color: "#944CB2" }}>Voir →</p>
                         </a>

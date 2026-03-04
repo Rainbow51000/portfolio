@@ -23,22 +23,21 @@ export default function Projets() {
                         {/* Carte 1 */}
                         <div className="border border-zinc-800 overflow-hidden group">
                             <img
-                                src="https://placehold.co/600x300/111111/FFB310?text=PROJET"
+                                src="/public/asset/fightorflight.png"
                                 alt="Projet 1"
-                                className="w-full h-44 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                className="w-full h-44 object-cover group-hover:grayscale-0 transition-all duration-500"
                             />
                             <div className="p-6">
                                 <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet personnel</span>
-                                <h3 className="text-xl font-black uppercase mt-2 mb-2">NOM DU PROJET</h3>
+                                <h3 className="text-xl font-black uppercase mt-2 mb-2">Fight or Flight</h3>
                                 <p className="text-zinc-500 text-sm font-mono leading-relaxed mb-4">
-                                    PLACEHOLDER — description du projet et technos utilisées.
+                                    Un jeu sur Godot, réalisée lors de la GameJam III de l'IUT de Reims, en groupe de trois.
                                 </p>
                                 <div className="flex items-center justify-between">
                                     <div className="flex gap-2">
-                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>React</span>
-                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>Node.js</span>
+                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>Godot</span>
                                     </div>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://github.com/Rainbow51000/fight-or-flight" target="_blank" rel="noopener noreferrer"
                                        className="text-xs font-mono hover:text-white transition-colors" style={{ color: "#944CB2" }}>
                                         Voir →
                                     </a>
@@ -49,72 +48,23 @@ export default function Projets() {
                         {/* Carte 2 */}
                         <div className="border border-zinc-800 overflow-hidden group">
                             <img
-                                src="https://placehold.co/600x300/111111/FFB310?text=PROJET"
+                                src="/public/asset/colive.png"
                                 alt="Projet 2"
-                                className="w-full h-44 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                                className="w-full h-44 object-cover group-hover:grayscale-0 transition-all duration-500"
                             />
                             <div className="p-6">
                                 <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet académique</span>
-                                <h3 className="text-xl font-black uppercase mt-2 mb-2">NOM DU PROJET</h3>
+                                <h3 className="text-xl font-black uppercase mt-2 mb-2">CoLive</h3>
                                 <p className="text-zinc-500 text-sm font-mono leading-relaxed mb-4">
-                                    PLACEHOLDER — description du projet et technos utilisées.
+                                    Un site Crud réalisée lors de la SAÉ 3.01 à l'IUT de Reims, en groupe.
                                 </p>
                                 <div className="flex items-center justify-between">
                                     <div className="flex gap-2">
-                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>Python</span>
-                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>SQL</span>
+                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>PHP</span>
+                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>Symfony</span>
+                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>Bootstrap</span>
                                     </div>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
-                                       className="text-xs font-mono hover:text-white transition-colors" style={{ color: "#944CB2" }}>
-                                        Voir →
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Carte 3 */}
-                        <div className="border border-zinc-800 overflow-hidden group">
-                            <img
-                                src="https://placehold.co/600x300/111111/FFB310?text=PROJET"
-                                alt="Projet 3"
-                                className="w-full h-44 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                            />
-                            <div className="p-6">
-                                <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet personnel</span>
-                                <h3 className="text-xl font-black uppercase mt-2 mb-2">NOM DU PROJET</h3>
-                                <p className="text-zinc-500 text-sm font-mono leading-relaxed mb-4">
-                                    PLACEHOLDER — description du projet et technos utilisées.
-                                </p>
-                                <div className="flex items-center justify-between">
-                                    <div className="flex gap-2">
-                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>PLACEHOLDER</span>
-                                    </div>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
-                                       className="text-xs font-mono hover:text-white transition-colors" style={{ color: "#944CB2" }}>
-                                        Voir →
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Carte 4 */}
-                        <div className="border border-zinc-800 overflow-hidden group">
-                            <img
-                                src="https://placehold.co/600x300/111111/FFB310?text=PROJET"
-                                alt="Projet 4"
-                                className="w-full h-44 object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                            />
-                            <div className="p-6">
-                                <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet académique</span>
-                                <h3 className="text-xl font-black uppercase mt-2 mb-2">NOM DU PROJET</h3>
-                                <p className="text-zinc-500 text-sm font-mono leading-relaxed mb-4">
-                                    PLACEHOLDER — description du projet et technos utilisées.
-                                </p>
-                                <div className="flex items-center justify-between">
-                                    <div className="flex gap-2">
-                                        <span className="text-xs font-mono px-2 py-1 border" style={{ borderColor: "#944CB2", color: "#944CB2" }}>PLACEHOLDER</span>
-                                    </div>
-                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://github.com/Rainbow51000/sae3-01" target="_blank" rel="noopener noreferrer"
                                        className="text-xs font-mono hover:text-white transition-colors" style={{ color: "#944CB2" }}>
                                         Voir →
                                     </a>
