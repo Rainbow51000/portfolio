@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="32"
-     inkscape:cx="14.6875"
-     inkscape:cy="4.296875"
+     inkscape:zoom="11.313709"
+     inkscape:cx="30.405592"
+     inkscape:cy="126.61631"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -59,25 +59,25 @@
        x2="5.3582621"
        y2="39.43346"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.81013857,0,0,0.70883841,0.69577344,4.9617273)" />
+       gradientTransform="matrix(0.81013857,0,0,1.33042,0.72758215,-7.1844352)" />
   </defs>
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#000000;stroke-width:0.141581"
+       style="fill:#000000;stroke-width:0.159168"
        id="rect3"
        width="10.231676"
-       height="26.542336"
+       height="33.545944"
        x="-0.10426646"
        y="-0.19966054" />
     <rect
-       style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient2);stroke-width:0.158448"
+       style="opacity:1;mix-blend-mode:normal;fill:url(#linearGradient2);stroke-width:0.217073"
        id="rect3-8"
        width="10.278205"
-       height="4.1870327"
-       x="-0.10239381"
-       y="26.323662" />
+       height="7.8586483"
+       x="-0.070585147"
+       y="32.909817" />
   </g>
 </svg>
