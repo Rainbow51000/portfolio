@@ -4,7 +4,7 @@ export default function Accueil() {
 
             {/* Hero */}
             <section className="max-w-4xl mx-auto px-8 py-32 text-center">
-                <img src={"/logo.png"}  alt="Logo Ruddy Gobillard" className="w-xl" />
+                <img src={"/asset/logo.png"}  alt="Logo Ruddy Gobillard" className="w-xl" />
                 <p className="text-zinc-400 text-lg max-w-xl mx-auto mb-12 font-mono leading-relaxed">
                     Étudiant en BUT Informatique,<br/>
                     j'étudie pour devenir développeur Fullstack et travailler dans ce qui me plaît.
