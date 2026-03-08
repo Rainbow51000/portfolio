@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Contact() {
     return (
         <div>
-
-            {/* Header */}
-            <section className="max-w-4xl mx-auto px-8 pt-16 pb-12 text-center relative">
+            <section className="max-w-4xl mx-auto px-8 pt-16 pb-12 text-center relative mt-9">
                 <div className="absolute top-0 left-8">
                     <Link to="/" className="text-xs font-mono text-zinc-500 hover:text-white transition-colors">
                         ← Retour à l'accueil
@@ -24,19 +22,17 @@ export default function Contact() {
 
             <section className="border-t border-zinc-800">
                 <div className="max-w-4xl mx-auto px-8 py-20 grid grid-cols-1 md:grid-cols-2 gap-16">
-
-                    {/* Informations directes */}
                     <div>
                         <h3 className="text-xs font-mono tracking-widest uppercase mb-8" style={{ color: "#944CB2" }}>
                             — Mes coordonnées
                         </h3>
                         <p className="text-zinc-400 font-mono text-sm leading-relaxed mb-6">
-                            Tu as une question, une proposition de stage ou un projet en tête ? N'hésite pas à m'envoyer un e-mail directement.
+                            Vous avez une question, une proposition de stage ou un projet en tête ? N'hésite pas à m'envoyer un e-mail directement.
                         </p>
                         <div className="mb-8 border-l-2 pl-4" style={{ borderColor: "#FFB310" }}>
                             <p className="text-xs font-mono uppercase text-zinc-500 mb-1">E-mail</p>
                             <a href="mailto:[ton-email@exemple.com]" className="text-lg font-mono text-white hover:underline">
-                                [ton-email@exemple.com]
+                                ruddy.gobillard@outlook.fr
                             </a>
                         </div>
                         <div className="border-l-2 pl-4" style={{ borderColor: "#944CB2" }}>
@@ -47,7 +43,6 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    {/* Formulaire */}
                     <div>
                         <h3 className="text-xs font-mono tracking-widest uppercase mb-8" style={{ color: "#944CB2" }}>
                             — Formulaire de contact
