@@ -3,6 +3,7 @@ import Accueil from "./pages/accueil.jsx";
 import Parcours from "./pages/parcours.jsx";
 import Projets from "./pages/projets.jsx";
 import Contact from "./pages/contact.jsx";
+import MentionsLegales from "./pages/mentions-legales.jsx";
 
 /**
  * Main function, appears on every pages!
@@ -17,6 +18,7 @@ function App() {
       <Route path={"/parcours"} element={<Parcours />} />
       <Route path={"/projets"} element={<Projets />} />
       <Route path={"/contact"} element={<Contact />} />
+      <Route path={"/mentions-legales"} element={<MentionsLegales />} />
     </Routes>
   </>);
 }
