@@ -4,7 +4,6 @@ export default function Accueil() {
     return (
         <div className="justify-center flex flex-col">
 
-            {/* Hero */}
             <section className="max-w-4xl mx-auto px-8 py-32 text-center">
                 <img src="asset/logo.png" alt="logo" />
                 <p className="text-zinc-400 text-base max-w-xl mx-auto mb-4 font-mono leading-relaxed">
@@ -17,12 +16,10 @@ export default function Accueil() {
                     href="/asset/cv.pdf"
                     className="inline-block border-2 border-white text-white font-mono text-sm uppercase tracking-widest px-8 py-4 hover:bg-white hover:text-black transition-all"
                 >
-                    {/* PLACEHOLDER: Remplace /asset/cv.pdf par le vrai chemin de ton CV */}
                     ↓ Télécharger le CV
                 </a>
             </section>
 
-            {/* Secteur & positionnement */}
             <section className="border-t border-zinc-800">
                 <div className="max-w-4xl mx-auto px-8 py-20">
                     <h2 className="text-xs font-mono tracking-widest uppercase mb-10" style={{ color: "#FFB310" }}>
@@ -31,7 +28,7 @@ export default function Accueil() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div className="border border-zinc-800 p-6">
                             <p className="text-white font-mono font-bold uppercase text-sm mb-2">Développement Web</p>
-                            <p className="text-zinc-500 font-mono text-sm leading-relaxed">Sites et applications web avec React, Node.js, PHP/Symfony. Maîtrise du cycle complet : base de données, API, interface.</p>
+                            <p className="text-zinc-500 font-mono text-sm leading-relaxed">Sites et applications web avec React, Vue, PHP/Symfony. Maîtrise du cycle complet : base de données, API, interface.</p>
                         </div>
                         <div className="border border-zinc-800 p-6">
                             <p className="text-white font-mono font-bold uppercase text-sm mb-2">Data & Scripts</p>
@@ -39,52 +36,12 @@ export default function Accueil() {
                         </div>
                         <div className="border border-zinc-800 p-6">
                             <p className="text-white font-mono font-bold uppercase text-sm mb-2">Jeux vidéo</p>
-                            <p className="text-zinc-500 font-mono text-sm leading-relaxed">Développement de jeux avec Godot (GDScript/C#) et Phaser (JavaScript). Participation à des game jams.</p>
+                            <p className="text-zinc-500 font-mono text-sm leading-relaxed">Développement de jeux avec Godot (GDScript/C#) et Phaser (JavaScript). Participation à des GameJam.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Compétences avec niveau */}
-            <section className="border-t border-zinc-800">
-                <div className="max-w-4xl mx-auto px-8 py-20">
-                    <h2 className="text-xs font-mono tracking-widest uppercase mb-10" style={{ color: "#944CB2" }}>
-                        — Compétences & niveaux
-                    </h2>
-
-                    <div className="space-y-10">
-
-                        {/* Langages */}
-                        <div>
-                            <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-4">Langages</p>
-                            <div className="space-y-3">
-                                <SkillBar label="JavaScript" level={75} note="Usage régulier — projets web, logique front et back" />
-                                <SkillBar label="Python" level={60} note="Scripts, traitement de données, cours IUT" />
-                                <SkillBar label="PHP" level={55} note="Projets Symfony, CRUD, MVC" />
-                                <SkillBar label="SQL" level={60} note="Requêtes, jointures, modélisation de BDD" />
-                                <SkillBar label="HTML & CSS" level={80} note="Intégration web, responsive, animations" />
-                                <SkillBar label="C# / GDScript" level={40} note="Développement de jeux avec Godot" />
-                            </div>
-                        </div>
-
-                        {/* Frameworks */}
-                        <div>
-                            <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-4">Frameworks & Outils</p>
-                            <div className="space-y-3">
-                                <SkillBar label="React" level={70} note="Ce portfolio, projets perso, composants, hooks" color="#944CB2" />
-                                <SkillBar label="Tailwind CSS" level={70} note="Utilisé quotidiennement dans mes projets" color="#944CB2" />
-                                <SkillBar label="Symfony" level={50} note="SAÉ 3.01 — site CRUD complet en groupe" color="#944CB2" />
-                                <SkillBar label="Node.js / Express" level={45} note="APIs REST, routes, middleware" color="#944CB2" />
-                                <SkillBar label="Git" level={65} note="Versionning, branches, collaboration GitHub" color="#944CB2" />
-                                <SkillBar label="Docker" level={35} note="Notions de conteneurisation, cours IUT" color="#944CB2" />
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            {/* Projets mis en avant */}
             <section className="border-t border-zinc-800">
                 <div className="max-w-4xl mx-auto px-8 py-20">
                     <h2 className="text-xs font-mono tracking-widest uppercase mb-10" style={{ color: "#944CB2" }}>
