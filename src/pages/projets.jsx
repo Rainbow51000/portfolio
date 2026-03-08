@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 export default function Projets() {
     return (
         <div>
-
-            {/* Header */}
-            <section className="max-w-4xl mx-auto px-8 py-24 text-center">
+            <section className="max-w-4xl mx-auto px-8 py-24 text-center mt-9">
                 <p className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
                     — Projets
                 </p>
@@ -17,16 +15,15 @@ export default function Projets() {
                 </h2>
             </section>
 
-            {/* Projets détaillés */}
             <section className="border-t border-zinc-800">
                 <div className="max-w-4xl mx-auto px-8 py-20 space-y-20">
 
-                    {/* Projet 1 — Fight or Flight */}
                     <div id="fight-or-flight" className="border border-zinc-800">
-                        {/* PLACEHOLDER: Remplace /public/asset/fightorflight.png par la vraie capture d'écran du jeu */}
-                        <div className="w-full h-52 bg-zinc-900 flex items-center justify-center border-b border-zinc-800">
-                            <p className="text-zinc-600 font-mono text-xs uppercase tracking-widest">[ Capture d'écran du jeu — à remplacer ]</p>
-                        </div>
+                        <img
+                            src="/public/asset/fightorflight.png"
+                            alt="Projet 1"
+                            className="w-full h-44 object-cover group-hover:grayscale-0 transition-all duration-500"
+                        />
 
                         <div className="p-8">
                             <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
@@ -41,61 +38,52 @@ export default function Projets() {
                                 </a>
                             </div>
 
-                            {/* Contexte */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Contexte</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Jeu réalisé en groupe de trois lors de la GameJam III organisée par l'IUT de Reims. Contrainte de temps : 48h pour produire un jeu jouable sur le thème imposé.
-                                    {/* PLACEHOLDER: Précise le thème de la GameJam ici */}
+                                    Jeu réalisé en groupe de trois lors de la GameJam III organisée par l'IUT de Reims.
+                                    Contrainte de temps : Une semaine pour développer un jeu jouable sur le thème imposé "Pirate contre Chevalier, et une poule qui court...".
                                 </p>
                             </div>
 
-                            {/* Ce que j'ai fait */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ma contribution</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    {/* PLACEHOLDER: Décris précisément ce que tu as fait (mécaniques, UI, level design, code...) */}
-                                    [À préciser — ex : j'ai géré la logique de déplacement du personnage, le système de collision, et le level design des deux premiers niveaux en GDScript.]
+                                    Développement de la structure du joueur et des IA avec leur boîte de collision et leur hitbox correspondante. Création du système d'arme au joueur, des animations en fonction des actions de joueur et de l'IA, du système de scène.
                                 </p>
                             </div>
 
-                            {/* Fonctionnement technique */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Comment c'est réalisé</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Le jeu tourne sous <strong className="text-white">Godot Engine 4</strong>. La logique est écrite en <strong className="text-white">GDScript</strong>. Les scènes sont découpées par niveau, avec un système de gestion d'état pour les ennemis (machine à états simple). Les assets graphiques ont été créés ou adaptés pendant la jam.
-                                    {/* PLACEHOLDER: Détaille les mécaniques spécifiques que tu as codées */}
+                                    Le jeu tourne sous <strong className="text-white">Godot Engine 4</strong>. La logique est écrite en <strong className="text-white">GDScript</strong>. Le jeu est du genre "Runner", où le joueur court à l'infini vers la droite avec un système de score, où le niveau est générée procédurallement de façon déterminée avec un système de parcelles aléatoire. Le joueur rencontre 2 types d'ennemis qui requiert une arme précise, forçant le joueur à utiliser la bonne arme au bon moment.
                                 </p>
                             </div>
 
-                            {/* Stack */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-3">Stack technique</p>
                                 <div className="flex flex-wrap gap-2">
                                     <Tag label="Godot 4" />
                                     <Tag label="GDScript" />
                                     <Tag label="Git" />
-                                    {/* PLACEHOLDER: Ajoute d'autres outils utilisés si besoin */}
                                 </div>
                             </div>
 
-                            {/* Ce que j'ai appris */}
                             <div>
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ce que j'ai appris</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    {/* PLACEHOLDER: Ex : gestion du temps sous contrainte, organisation en équipe en 48h, architecture de scènes Godot */}
-                                    [À préciser — ex : travail en équipe sous forte contrainte de temps, structuration rapide d'un projet Godot, communication sur les tâches à faire.]
+                                    Comment réaliser un jeu vidéo en groupe, avec des rôles attribuée (Développeur, Designer / Sprite maker), selon certaines contraintes de temps et des critères à remplir.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    {/* Projet 2 — CoLive */}
                     <div id="colive" className="border border-zinc-800">
-                        {/* PLACEHOLDER: Remplace /public/asset/colive.png par la vraie capture */}
-                        <div className="w-full h-52 bg-zinc-900 flex items-center justify-center border-b border-zinc-800">
-                            <p className="text-zinc-600 font-mono text-xs uppercase tracking-widest">[ Capture d'écran du site — à remplacer ]</p>
-                        </div>
+                        <img
+                            src="/public/asset/colive.png"
+                            alt="Projet 2"
+                            className="w-full h-44 object-cover group-hover:grayscale-0 transition-all duration-500"
+                        />
 
                         <div className="p-8">
                             <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
@@ -110,29 +98,24 @@ export default function Projets() {
                                 </a>
                             </div>
 
-                            {/* Contexte */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Contexte</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Projet réalisé dans le cadre de la SAÉ 3.01 à l'IUT de Reims, en groupe. L'objectif était de concevoir et développer une application web complète avec toutes les opérations CRUD, gestion des utilisateurs, et base de données relationnelle.
+                                    Projet réalisé dans le cadre de la SAÉ 3.01 à l'IUT de Reims, en groupe. L'objectif était de concevoir et développer une application web CRUD complète avec toutes les opérations CRUD, gestion des utilisateurs, et base de données relationnelle.
                                 </p>
                             </div>
 
-                            {/* Ce que c'est */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ce que fait l'application</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    CoLive est une plateforme de mise en relation pour la colocation. Les utilisateurs peuvent créer un compte, publier des annonces de colocation, consulter celles des autres et contacter les annonceurs. Chaque annonce inclut une description, une localisation et le nombre de colocataires.
-                                    {/* PLACEHOLDER: Complète avec les vraies fonctionnalités si différentes */}
+                                    CoLive est une plateforme de mise en relation pour la colocation des étudiants. Les utilisateurs peuvent créer un compte, publier des annonces de colocation, consulter celles des autres et contacter les annonceurs. Chaque annonce inclut une description, une localisation et des photos associées.
                                 </p>
                             </div>
 
-                            {/* Ma contribution */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ma contribution</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    {/* PLACEHOLDER: Ex : j'ai géré le système d'authentification, les controllers Symfony, la modélisation BDD */}
-                                    [À préciser — ex : j'ai développé les contrôleurs Symfony pour les annonces (création, modification, suppression), configuré Doctrine pour les entités et mis en place le système d'authentification.]
+                                    Leading sur les rôles des membres du groupe avec leur tâches associées. Création des contrôleurs d'index, avec une mise en place de la pagination. Intégration du système de comptes des utilisateurs, avec la sécurité associée. Correction de certains bugs sur les contrôleurs et sur les entitées. Optimisation des requêtes sur les pages d'Index. Mise en place d'une barre de recherche.
                                 </p>
                             </div>
 
@@ -140,8 +123,7 @@ export default function Projets() {
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Comment c'est réalisé</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Architecture MVC avec <strong className="text-white">Symfony 6</strong>. La base de données est <strong className="text-white">MySQL</strong>, gérée via <strong className="text-white">Doctrine ORM</strong>. Le front est rendu avec <strong className="text-white">Twig</strong> et stylisé avec <strong className="text-white">Bootstrap 5</strong>. Le projet est versionné sur <strong className="text-white">Git</strong> avec un workflow de branches par fonctionnalité.
-                                    {/* PLACEHOLDER: Précise si vous avez utilisé Docker, un hébergement particulier, des tests... */}
+                                    Architecture MVC avec <strong className="text-white">Symfony</strong>. La base de données est <strong className="text-white">MariaDB</strong>, gérée via <strong className="text-white">Doctrine ORM</strong>. Le front est rendu avec <strong className="text-white">Twig</strong> et stylisé avec <strong className="text-white">Bootstrap 5</strong>. Le projet est versionné sur <strong className="text-white">Git</strong> avec un workflow de branches par fonctionnalité. Les tests unitaires utilisent une base de données <strong className="text-white">SQLite</strong>
                                 </p>
                             </div>
 
@@ -149,9 +131,10 @@ export default function Projets() {
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-3">Stack technique</p>
                                 <div className="flex flex-wrap gap-2">
-                                    <Tag label="PHP 8" />
-                                    <Tag label="Symfony 6" />
+                                    <Tag label="PHP 8.3" />
+                                    <Tag label="Symfony" />
                                     <Tag label="MySQL" />
+                                    <Tag label="phpMyAdmin" />
                                     <Tag label="Doctrine ORM" />
                                     <Tag label="Twig" />
                                     <Tag label="Bootstrap 5" />
@@ -159,18 +142,15 @@ export default function Projets() {
                                 </div>
                             </div>
 
-                            {/* Ce que j'ai appris */}
                             <div>
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ce que j'ai appris</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    {/* PLACEHOLDER: Décris les apprentissages concrets */}
-                                    [À préciser — ex : structuration d'un projet Symfony de A à Z, gestion de la BDD avec Doctrine, travail en équipe sur Git avec résolution de conflits.]
+                                    Structure d'un projet Symfony du recueil de besoins, jusqu'au développement et aux tests unitaires des pages du site web. Mise en pratique du développement avec une équipe de 5 personnes de façon organisée.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    {/* Projet 3 — Ce portfolio */}
                     <div id="portfolio" className="border border-zinc-800 p-8">
                         <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                             <div>
@@ -189,7 +169,7 @@ export default function Projets() {
                         <div className="mb-6">
                             <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Comment c'est réalisé</p>
                             <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                Application <strong className="text-white">React</strong> avec <strong className="text-white">Vite</strong> comme bundler. Routing côté client avec <strong className="text-white">React Router</strong>. CSS utilitaire avec <strong className="text-white">Tailwind CSS v4</strong>. Composants modulaires (Header, Footer, ScrollToTop). Design entièrement manuel, sans composants UI tiers.
+                                Application <strong className="text-white">React</strong> avec <strong className="text-white">Vite</strong> comme bundler. Routing côté client avec <strong className="text-white">React Router</strong>. CSS utilitaire avec <strong className="text-white">Tailwind CSS</strong>. Composants modulaires (Header, Footer, ScrollToTop). Design entièrement manuel, sans composants UI tiers. Site web single-page grâce à React et React Routeur.
                             </p>
                         </div>
 
