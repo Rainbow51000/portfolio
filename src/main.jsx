@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
     <div className="flex flex-col min-h-screen">
       <ScrollToTop />
       <Header />
-      <main className="flex-1 w-full p-10 bg-[url(/src/assets/grain.png)]">
+      <main className="flex-1 w-full p-10">
           <App />
       </main>
       <Footer />
