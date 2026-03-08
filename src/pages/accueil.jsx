@@ -6,8 +6,7 @@ export default function Accueil() {
 
             {/* Hero */}
             <section className="max-w-4xl mx-auto px-8 py-32 text-center">
-                {/* PLACEHOLDER: Remplace le <h1> ci-dessous par ton image logo si tu veux, sinon garde le texte */}
-                <h1 className="text-5xl font-black uppercase font-mono mb-4 tracking-tight">Ruddy Gobillard</h1>
+                <img src="asset/logo.png" alt="logo" />
                 <p className="text-zinc-400 text-base max-w-xl mx-auto mb-4 font-mono leading-relaxed">
                     Étudiant en BUT Informatique à l'IUT de Reims — je me spécialise en <span className="text-white">développement web fullstack</span>, avec un intérêt pour la data et le développement de jeux vidéo.
                 </p>
