@@ -42,21 +42,21 @@ export default function Projets() {
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Contexte</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
                                     Jeu réalisé en groupe de trois lors de la GameJam III organisée par l'IUT de Reims.
-                                    Contrainte de temps : Une semaine pour développer un jeu jouable sur le thème imposé "Pirate contre Chevalier, et une poule qui court...".
+                                    Contrainte de temps : une semaine pour développer un jeu jouable sur le thème imposé "Pirate contre Chevalier, et une poule qui court...".
                                 </p>
                             </div>
 
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ma contribution</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Développement de la structure du joueur et des IA avec leur boîte de collision et leur hitbox correspondante. Création du système d'arme au joueur, des animations en fonction des actions de joueur et de l'IA, du système de scène.
+                                    Développement de la structure du joueur et des IA avec leur boîte de collision et leur hitbox correspondante. Création du système d'arme du joueur, des animations en fonction des actions du joueur et de l'IA, du système de scène.
                                 </p>
                             </div>
 
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Comment c'est réalisé</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Le jeu tourne sous <strong className="text-white">Godot Engine 4</strong>. La logique est écrite en <strong className="text-white">GDScript</strong>. Le jeu est du genre "Runner", où le joueur court à l'infini vers la droite avec un système de score, où le niveau est générée procédurallement de façon déterminée avec un système de parcelles aléatoire. Le joueur rencontre 2 types d'ennemis qui requiert une arme précise, forçant le joueur à utiliser la bonne arme au bon moment.
+                                    Le jeu tourne sous <strong className="text-white">Godot Engine 4</strong>. La logique est écrite en <strong className="text-white">GDScript</strong>. Le jeu est du genre "Runner", où le joueur court à l'infini vers la droite avec un système de score, où le niveau est généré procéduralement de façon déterminée avec un système de parcelles aléatoires. Le joueur rencontre 2 types d'ennemis qui requièrent une arme précise, forçant le joueur à utiliser la bonne arme au bon moment.
                                 </p>
                             </div>
 
@@ -72,7 +72,7 @@ export default function Projets() {
                             <div>
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ce que j'ai appris</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Comment réaliser un jeu vidéo en groupe, avec des rôles attribuée (Développeur, Designer / Sprite maker), selon certaines contraintes de temps et des critères à remplir.
+                                    Comment réaliser un jeu vidéo en groupe, avec des rôles attribués (Développeur, Designer / Sprite maker), selon certaines contraintes de temps et des critères à remplir.
                                 </p>
                             </div>
                         </div>
@@ -115,19 +115,17 @@ export default function Projets() {
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Ma contribution</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Leading sur les rôles des membres du groupe avec leur tâches associées. Création des contrôleurs d'index, avec une mise en place de la pagination. Intégration du système de comptes des utilisateurs, avec la sécurité associée. Correction de certains bugs sur les contrôleurs et sur les entitées. Optimisation des requêtes sur les pages d'Index. Mise en place d'une barre de recherche.
+                                    Leading sur les rôles des membres du groupe avec leurs tâches associées. Création des contrôleurs d'index, avec une mise en place de la pagination. Intégration du système de comptes des utilisateurs, avec la sécurité associée. Correction de certains bugs sur les contrôleurs et sur les entités. Optimisation des requêtes sur les pages d'Index. Mise en place d'une barre de recherche.
                                 </p>
                             </div>
 
-                            {/* Fonctionnement technique */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Comment c'est réalisé</p>
                                 <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                    Architecture MVC avec <strong className="text-white">Symfony</strong>. La base de données est <strong className="text-white">MariaDB</strong>, gérée via <strong className="text-white">Doctrine ORM</strong>. Le front est rendu avec <strong className="text-white">Twig</strong> et stylisé avec <strong className="text-white">Bootstrap 5</strong>. Le projet est versionné sur <strong className="text-white">Git</strong> avec un workflow de branches par fonctionnalité. Les tests unitaires utilisent une base de données <strong className="text-white">SQLite</strong>
+                                    Architecture MVC avec <strong className="text-white">Symfony</strong>. La base de données est <strong className="text-white">MariaDB</strong>, gérée via <strong className="text-white">Doctrine ORM</strong>. Le front est rendu avec <strong className="text-white">Twig</strong> et stylisé avec <strong className="text-white">Bootstrap 5</strong>. Le projet est versionné sur <strong className="text-white">Git</strong> avec un workflow de branches par fonctionnalité. Les tests unitaires utilisent une base de données <strong className="text-white">SQLite</strong>.
                                 </p>
                             </div>
 
-                            {/* Stack */}
                             <div className="mb-6">
                                 <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-3">Stack technique</p>
                                 <div className="flex flex-wrap gap-2">
@@ -169,7 +167,7 @@ export default function Projets() {
                         <div className="mb-6">
                             <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">Comment c'est réalisé</p>
                             <p className="text-zinc-400 font-mono text-sm leading-relaxed">
-                                Application <strong className="text-white">React</strong> avec <strong className="text-white">Vite</strong> comme bundler. Routing côté client avec <strong className="text-white">React Router</strong>. CSS utilitaire avec <strong className="text-white">Tailwind CSS</strong>. Composants modulaires (Header, Footer, ScrollToTop). Design entièrement manuel, sans composants UI tiers. Site web single-page grâce à React et React Routeur.
+                                Application <strong className="text-white">React</strong> avec <strong className="text-white">Vite</strong> comme bundler. Routing côté client avec <strong className="text-white">React Router</strong>. CSS utilitaire avec <strong className="text-white">Tailwind CSS</strong>. Composants modulaires (Header, Footer, ScrollToTop). Design entièrement manuel, sans composants UI tiers. Site web single-page grâce à React et React Router.
                             </p>
                         </div>
 

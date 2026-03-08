@@ -36,7 +36,7 @@ export default function Accueil() {
                         </div>
                         <div className="border border-zinc-800 p-6">
                             <p className="text-white font-mono font-bold uppercase text-sm mb-2">Jeux vidéo</p>
-                            <p className="text-zinc-500 font-mono text-sm leading-relaxed">Développement de jeux avec Godot (GDScript/C#) et Phaser (JavaScript). Participation à des GameJam.</p>
+                            <p className="text-zinc-500 font-mono text-sm leading-relaxed">Développement de jeux avec Godot (GDScript/C#) et Phaser (JavaScript). Participation à des Game Jams.</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export default function Accueil() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                         <Link to="/projets#fight-or-flight"
-                           className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group block">
+                              className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group block">
                             <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet personnel</span>
                             <h3 className="text-xl font-black uppercase mt-2 mb-3">Fight or Flight</h3>
                             <p className="text-zinc-500 text-sm font-mono leading-relaxed">Jeu Godot — Réalisé lors de la GameJam III de l'IUT de Reims en groupe de trois. Mécaniques de survie, level design, logique de jeu en GDScript.</p>
@@ -58,10 +58,10 @@ export default function Accueil() {
                         </Link>
 
                         <Link to="/projets#colive"
-                           className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group block">
+                              className="border border-zinc-800 p-8 hover:border-zinc-500 transition-colors group block">
                             <span className="text-xs font-mono uppercase" style={{ color: "#FFB310" }}>Projet académique</span>
                             <h3 className="text-xl font-black uppercase mt-2 mb-3">CoLive</h3>
-                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">Application web CRUD avec Symfony — gestion d'annonces de colocation, authentification, base de données MySQL, déployé en groupe.</p>
+                            <p className="text-zinc-500 text-sm font-mono leading-relaxed">Application web CRUD avec Symfony — gestion d'annonces de colocation, authentification, base de données MySQL, déployée en groupe.</p>
                             <p className="text-xs font-mono mt-6 group-hover:text-white transition-colors" style={{ color: "#944CB2" }}>Voir le projet →</p>
                         </Link>
 

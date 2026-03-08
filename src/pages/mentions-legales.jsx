@@ -16,7 +16,7 @@ export default function MentionsLegales() {
                     <div>
                         <h3 className="text-xs uppercase tracking-widest mb-4 text-white">Éditeur du site</h3>
                         <p>Ruddy Gobillard — étudiant en BUT Informatique, IUT de Reims</p>
-                        <p>Email : <a href="mailto:ton.email@exemple.com" className="text-white underline underline-offset-2">ruddy.gobillard@outlook.fr</a></p>
+                        <p>Email : <a href="mailto:ruddy.gobillard@outlook.fr" className="text-white underline underline-offset-2">ruddy.gobillard@outlook.fr</a></p>
                     </div>
 
                     <div>

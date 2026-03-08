@@ -27,11 +27,11 @@ export default function Contact() {
                             — Mes coordonnées
                         </h3>
                         <p className="text-zinc-400 font-mono text-sm leading-relaxed mb-6">
-                            Vous avez une question, une proposition de stage ou un projet en tête ? N'hésite pas à m'envoyer un e-mail directement.
+                            Vous avez une question, une proposition de stage ou un projet en tête ? N'hésitez pas à m'envoyer un e-mail directement.
                         </p>
                         <div className="mb-8 border-l-2 pl-4" style={{ borderColor: "#FFB310" }}>
                             <p className="text-xs font-mono uppercase text-zinc-500 mb-1">E-mail</p>
-                            <a href="mailto:[ton-email@exemple.com]" className="text-lg font-mono text-white hover:underline">
+                            <a href="mailto:ruddy.gobillard@outlook.fr" className="text-lg font-mono text-white hover:underline">
                                 ruddy.gobillard@outlook.fr
                             </a>
                         </div>
@@ -54,7 +54,7 @@ export default function Contact() {
                                 <label className="block text-xs font-mono uppercase tracking-widest mb-2 text-zinc-500">Nom</label>
                                 <input
                                     type="text"
-                                    placeholder="Ton nom"
+                                    placeholder="Votre nom"
                                     className="w-full bg-transparent border-b border-zinc-700 text-white font-mono text-sm py-3 outline-none focus:border-white transition-colors placeholder-zinc-700"
                                 ></input>
                             </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                                 <label className="block text-xs font-mono uppercase tracking-widest mb-2 text-zinc-500">Email</label>
                                 <input
                                     type="email"
-                                    placeholder="Ton email"
+                                    placeholder="Votre email"
                                     className="w-full bg-transparent border-b border-zinc-700 text-white font-mono text-sm py-3 outline-none focus:border-white transition-colors placeholder-zinc-700"
                                 ></input>
                             </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                                 <label className="block text-xs font-mono uppercase tracking-widest mb-2 text-zinc-500">Message</label>
                                 <textarea
                                     rows={5}
-                                    placeholder="Ton message..."
+                                    placeholder="Votre message..."
                                     className="w-full bg-transparent border-b border-zinc-700 text-white font-mono text-sm py-3 outline-none focus:border-white transition-colors placeholder-zinc-700 resize-none"
                                 />
                             </div>
