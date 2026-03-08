@@ -4,3 +4,7 @@ body{
     background: #0e0e0e;
     color:white;
 }
+
+p{
+    text-align: justify;
+}

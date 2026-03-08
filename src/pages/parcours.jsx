@@ -2,9 +2,9 @@ export default function Parcours() {
     return (
         <div>
             <section className="max-w-4xl mx-auto px-8 py-24 text-center mt-9">
-                <p className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
+                <h3 className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
                     — Parcours
-                </p>
+                </h3>
                 <h2 className="text-7xl font-black uppercase leading-none">
                     FORMATION
                 </h2>
@@ -95,8 +95,7 @@ export default function Parcours() {
                                 <div className="border border-zinc-800 p-4">
                                     <span className="font-bold text-white">Godot & GDScript</span>
                                     <p className="text-sm text-zinc-400 mt-2 font-mono">
-                                        Réalisation de jeux personnels et en groupe lors de GameJams, jeux 2D et 3D.
-                                        Utilisé lors de GameJams pour le prototypage rapide de logiques de jeu, gestion de la physique 2D/3D et scriptage événementiel.
+                                        Réalisation de jeux personnels et en groupe lors de GameJams, jeux 2D et 3D. Utilisation du scriptage événementiel grâce aux signaux des Nodes.
                                     </p>
                                 </div>
                                 <div className="border border-zinc-800 p-4">
@@ -109,6 +108,12 @@ export default function Parcours() {
                                     <span className="font-bold text-white">Git / GitHub</span>
                                     <p className="text-sm text-zinc-400 mt-2 font-mono">
                                         Versioning de code au quotidien. Habitué au travail collaboratif (branches, pull requests, résolution de conflits).
+                                    </p>
+                                </div>
+                                <div className="border border-zinc-800 p-4 md:col-span-2 lg:col-span-1">
+                                    <span className="font-bold text-white">Docker</span>
+                                    <p className="text-sm text-zinc-400 mt-2 font-mono">
+                                        Utilisation d'un projet Docker avec une version Dev et une version Prod. Conteneurisation d'un projet déjà existant.
                                     </p>
                                 </div>
                             </div>

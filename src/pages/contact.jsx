@@ -9,9 +9,9 @@ export default function Contact() {
                         ← Retour à l'accueil
                     </Link>
                 </div>
-                <p className="text-sm font-mono tracking-widest uppercase mb-6 mt-8" style={{ color: "#FFB310" }}>
+                <h3 className="text-sm font-mono tracking-widest uppercase mb-6 mt-8" style={{ color: "#FFB310" }}>
                     — Contact
-                </p>
+                </h3>
                 <h2 className="text-7xl font-black uppercase leading-none">
                     PARLONS
                 </h2>

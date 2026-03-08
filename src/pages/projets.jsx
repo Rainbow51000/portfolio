@@ -4,9 +4,9 @@ export default function Projets() {
     return (
         <div>
             <section className="max-w-4xl mx-auto px-8 py-24 text-center mt-9">
-                <p className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
+                <h3 className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
                     — Projets
-                </p>
+                </h3>
                 <h2 className="text-7xl font-black uppercase leading-none">
                     MES
                 </h2>

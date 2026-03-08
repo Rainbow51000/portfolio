@@ -4,9 +4,9 @@ export default function MentionsLegales() {
     return (
         <div>
             <section className="max-w-4xl mx-auto px-8 py-24">
-                <p className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
+                <h3 className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
                     — Informations légales
-                </p>
+                </h3>
                 <h2 className="text-5xl font-black uppercase leading-none mb-16">
                     Mentions légales
                 </h2>
@@ -16,15 +16,12 @@ export default function MentionsLegales() {
                     <div>
                         <h3 className="text-xs uppercase tracking-widest mb-4 text-white">Éditeur du site</h3>
                         <p>Ruddy Gobillard — étudiant en BUT Informatique, IUT de Reims</p>
-                        {/* PLACEHOLDER: Ajoute ton adresse postale si nécessaire */}
-                        <p>Email : <a href="mailto:ton.email@exemple.com" className="text-white underline underline-offset-2">ton.email@exemple.com</a></p>
-                        {/* PLACEHOLDER: Remplace l'email */}
+                        <p>Email : <a href="mailto:ton.email@exemple.com" className="text-white underline underline-offset-2">ruddy.gobillard@outlook.fr</a></p>
                     </div>
 
                     <div>
                         <h3 className="text-xs uppercase tracking-widest mb-4 text-white">Hébergement</h3>
-                        {/* PLACEHOLDER: Indique ton hébergeur (ex: Vercel, GitHub Pages, Netlify, OVH...) */}
-                        <p>[À compléter — ex : Site hébergé par Vercel, Inc. — 340 Pine Street, San Francisco, CA 94104, USA — vercel.com]</p>
+                        <p>Hébergement par...</p>
                     </div>
 
                     <div>
