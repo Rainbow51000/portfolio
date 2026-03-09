@@ -185,16 +185,6 @@ export default function Projets() {
 
                 </div>
             </section>
-
-            {/* Retour accueil */}
-            <section className="border-t border-zinc-800">
-                <div className="max-w-4xl mx-auto px-8 py-12">
-                    <Link to="/" className="text-xs font-mono uppercase tracking-widest border border-zinc-700 px-6 py-3 hover:border-white transition-colors inline-block">
-                        ← Retour à l'accueil
-                    </Link>
-                </div>
-            </section>
-
         </div>
     )
 }

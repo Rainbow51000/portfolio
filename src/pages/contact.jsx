@@ -3,21 +3,16 @@ import { Link } from 'react-router-dom';
 export default function Contact() {
     return (
         <div>
-            <section className="max-w-4xl mx-auto px-8 pt-16 pb-12 text-center relative mt-9">
-                <div className="absolute top-0 left-8">
-                    <Link to="/" className="text-xs font-mono text-zinc-500 hover:text-white transition-colors">
-                        ← Retour à l'accueil
-                    </Link>
-                </div>
-                <h3 className="text-sm font-mono tracking-widest uppercase mb-6 mt-8" style={{ color: "#FFB310" }}>
-                    — Contact
-                </h3>
-                <h2 className="text-7xl font-black uppercase leading-none">
-                    PARLONS
-                </h2>
-                <h2 className="text-7xl font-black uppercase leading-none sans-outline text-[#944CB2]">
-                    ENSEMBLE
-                </h2>
+            <section className="max-w-4xl mx-auto px-8 py-24 text-center mt-9">
+              <h3 className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
+                — CONTACT
+              </h3>
+              <h2 className="text-7xl font-black uppercase leading-none">
+                PARLONS
+              </h2>
+              <h2 className="text-7xl font-black uppercase leading-none sans-outline text-[#944CB2]">
+                ENSEMBLE
+              </h2>
             </section>
 
             <section className="border-t border-zinc-800">

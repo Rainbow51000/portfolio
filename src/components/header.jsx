@@ -6,21 +6,14 @@ import { Link } from 'react-router-dom';
  */
 export default function Header() {
     return (
-        <header className="w-full py-15 bg-[url(/src/assets/portfolio-header.svg)] fixed z-10">
-            <nav className="flex justify-center gap-12 text-3xl font-mono transition-all">
-                <Link to="/" className="duration-300 hover:font-bold hover:scale-110">
-                    accueil
-                </Link>
-                <Link to="/parcours" className="duration-300 hover:font-bold hover:scale-110">
-                    parcours
-                </Link>
-                <Link to="/projets" className="duration-300 hover:font-bold hover:scale-110">
-                    projets
-                </Link>
-                <Link to="/contact" className="duration-300 hover:font-bold hover:scale-110">
-                    contact
-                </Link>
-            </nav>
-        </header>
+      <header className="fixed w-full z-10 flex h-40 items-center justify-end px-10 transition-all bg-[url(/src/assets/portfolio-header.svg)]">
+        <nav className="absolute left-1/2 -translate-x-1/2 flex gap-12 text-3xl font-mono ">
+          <Link to="/" className="duration-300 hover:font-bold hover:scale-110">accueil</Link>
+          <Link to="/parcours" className="duration-300 hover:font-bold hover:scale-110">parcours</Link>
+          <Link to="/projets" className="duration-300 hover:font-bold hover:scale-110">projets</Link>
+          <Link to="/contact" className="duration-300 hover:font-bold hover:scale-110">contact</Link>
+        </nav>
+        <img src="asset/logo.png" alt="logo" className="h-22 w-auto" />
+      </header>
     )
 }

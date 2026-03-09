@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function MentionsLegales() {
     return (
         <div>
-            <section className="max-w-4xl mx-auto px-8 py-24">
+            <section className="max-w-4xl mx-auto px-8 py-32">
                 <h3 className="text-sm font-mono tracking-widest uppercase mb-6" style={{ color: "#FFB310" }}>
                     — Informations légales
                 </h3>
