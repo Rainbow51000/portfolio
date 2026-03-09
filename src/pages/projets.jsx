@@ -20,7 +20,7 @@ export default function Projets() {
 
                     <div id="fight-or-flight" className="border border-zinc-800">
                         <img
-                            src="/public/asset/fightorflight.png"
+                            src="/asset/fightorflight.png"
                             alt="Projet 1"
                             className="w-full h-44 object-cover group-hover:grayscale-0 transition-all duration-500"
                         />
@@ -80,7 +80,7 @@ export default function Projets() {
 
                     <div id="colive" className="border border-zinc-800">
                         <img
-                            src="/public/asset/colive.png"
+                            src="/asset/colive.png"
                             alt="Projet 2"
                             className="w-full h-44 object-cover group-hover:grayscale-0 transition-all duration-500"
                         />
