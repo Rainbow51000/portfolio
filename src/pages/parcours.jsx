@@ -8,7 +8,7 @@ export default function Parcours() {
                 <h2 className="text-7xl font-black uppercase leading-none">
                     FORMATION
                 </h2>
-                <h2 className="text-7xl font-black uppercase leading-none" style={{ WebkitTextStroke: "2px #944CB2", color: "transparent" }}>
+                <h2 className="text-7xl font-black uppercase leading-none sans-outline text-[#944CB2]">
                     &amp; SKILLS
                 </h2>
             </section>

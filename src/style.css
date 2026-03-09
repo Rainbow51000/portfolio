@@ -8,3 +8,14 @@ body{
 p{
     text-align: justify;
 }
+
+@font-face {
+  font-family: 'JustSansOutline';
+  src: url('asset/justSansOutlineExBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sans-outline {
+  font-family: 'JustSansOutline', sans-serif;
+}

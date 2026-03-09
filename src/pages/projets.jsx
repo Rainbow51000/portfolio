@@ -10,7 +10,7 @@ export default function Projets() {
                 <h2 className="text-7xl font-black uppercase leading-none">
                     MES
                 </h2>
-                <h2 className="text-7xl font-black uppercase leading-none" style={{ WebkitTextStroke: "2px #944CB2", color: "transparent" }}>
+                <h2 className="text-7xl font-black uppercase leading-none sans-outline text-[#944CB2]">
                     TRAVAUX
                 </h2>
             </section>
